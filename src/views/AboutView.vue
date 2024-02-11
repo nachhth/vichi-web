@@ -2,7 +2,7 @@
   <div class="about">
     <h1>About Me</h1>
 
-    <main>
+    <main class="about_container">
       <div class="img_container"></div>
       <div>
         <p class="description">
@@ -31,12 +31,13 @@
 
 h1 {
   all: unset;
-  font-size: 96px;
+  font-size: 6.857rem;
   text-transform: uppercase;
 }
 
-main {
+.about_container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -57,7 +58,7 @@ main {
 .description {
   width: 25rem;
   font-family: var(--font-subheader);
-  font-size: 24px;
+  font-size: 1.714rem;
 }
 
 .links {
@@ -68,7 +69,7 @@ main {
 }
 
 .links.view_resume {
-  font-size: 48px;
+  font-size: 3.429rem;
   font-family: var(--font-header);
 }
 .links.view_resume > a {

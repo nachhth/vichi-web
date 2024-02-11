@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="portfolio_container">
     <div class="portfolio">
       <h1>Portfolio</h1>
       <div>01</div>
@@ -19,11 +19,11 @@
 .portfolio {
   font-family: var(--font-header);
   text-transform: uppercase;
-  font-size: 96px;
+  font-size: 6.857rem;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
-  height: calc(100vh - 10rem);
+  height: calc(100vh - var(--footer-height));
 }
 
 h1 {
