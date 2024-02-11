@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=League+Spartan:wght@300&display=swap');
+@import './base.css';
+
+.links {
+  display: flex;
+  gap: 1rem;
+  font-family: var(--font-subheader);
+  font-size: 24px;
+}
+
+a {
+  padding: 0.2rem 0.2rem 0 0.2rem;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+a:hover {
+  outline: -webkit-focus-ring-color auto 1px;
+}
+
+a.current {
+  font-weight: 600;
+}
+
+a:visited {
+  color: var(--color-text);
+}
+
+li {
+  list-style: none;
+}
