@@ -8,7 +8,7 @@ import Footer from './components/layout/Footer.vue';
 
   <RouterView />
 
-  <Footer v-if="$route.path !== '/about-me'" />
+  <Footer />
 </template>
 
 <style scoped></style>

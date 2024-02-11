@@ -38,6 +38,7 @@
 
 .links {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   font-family: var(--font-subheader);
   font-size: 24px;

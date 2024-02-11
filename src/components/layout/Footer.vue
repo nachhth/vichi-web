@@ -1,8 +1,8 @@
 <script setup></script>
 
 <template>
-  <footer class="footer_container">
-    <a href="mailto:victoria.corbalan.labora@udc.es"> victoria.corbalan.labora@udc.es </a>
+  <footer class="footer_container" :class="$route.path !== '/about-me' ? '' : ''">
+    <a v-if="$route.path !== '/about-me'" href="mailto:victoria.corbalan.labora@udc.es"> victoria.corbalan.labora@udc.es </a>
 
     <div>{{ new Date().getFullYear() }}</div>
   </footer>
@@ -17,9 +17,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
+  position: sticky;
   bottom: 0;
   width: 100%;
   font-size: 20px;
+  background-color: var(--color-background);
 }
 </style>
