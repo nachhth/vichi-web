@@ -21,7 +21,7 @@
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: var(--footer-height);
   font-size: 1.429rem;
   background-color: var(--color-background);
