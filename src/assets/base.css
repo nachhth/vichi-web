@@ -1,6 +1,6 @@
 :root {
-  --font-header: 'League Gothic', sans-serif;
-  --font-subheader: 'League Spartan', sans-serif;
+  --font-header: 'League Gothic', monospace;
+  --font-subheader: 'League Spartan', monospace;
   --font-size: 14px;
   --font-size-m: 12px;
 
@@ -150,8 +150,6 @@ body {
   min-height: 100vh;
   color: var(--color-text);
   background: var(--color-background);
-  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -159,7 +157,7 @@ body {
 
 html,
 body {
-  font-family: 'Arboria', sans-serif;
+  font-family: monospace;
   font-size: var(--font-size-m);
   padding: 0;
   margin: 0;
