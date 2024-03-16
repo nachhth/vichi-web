@@ -24,23 +24,24 @@
 </template>
 
 <style scoped>
-.topbar_container {
-  font-family: var(--font-header);
-  text-transform: uppercase;
-  color: var(--color-heading);
-  padding: 1rem 2rem;
-  display: flex;
-  gap: 1rem;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  border-bottom: 1px solid #fff;
-  background-color: var(--color-background);
-  position: sticky;
-  top: 0;
-}
+  .topbar_container {
+    z-index: var(--z-index-2);
+    font-family: var(--font-header);
+    text-transform: uppercase;
+    color: var(--color-heading);
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #fff;
+    background-color: var(--color-background);
+    position: sticky;
+    top: 0;
+  }
 
-ul {
-  padding-left: 0%;
-}
+  ul {
+    padding-left: 0%;
+  }
 </style>
