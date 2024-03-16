@@ -1,4 +1,5 @@
 <script setup>
+  import ProyectJungle from '@/components/portfolio/ProyectJungle.vue';
   import ProyectSilvia from '@/components/portfolio/ProyectSilvia.vue';
 </script>
 
@@ -10,6 +11,8 @@
         <span class="portfolio_subtitle">PORTFOLIO</span>
         <div>01</div>
       </header>
+
+      <ProyectJungle />
     </article>
 
     <article class="portfolio">
