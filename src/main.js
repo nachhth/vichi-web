@@ -1,11 +1,15 @@
-import './assets/main.css'
+// vue3-carousel
+import 'vue3-carousel/dist/carousel.css';
 
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+// main css
+import './assets/main.css';
 
-const app = createApp(App)
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
 
-app.use(router)
+const app = createApp(App);
 
-app.mount('#app')
+app.use(router);
+
+app.mount('#app');

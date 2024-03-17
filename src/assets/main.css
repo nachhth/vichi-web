@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=League+Spartan:wght@300&display=block');
 @import './base.css';
 
+@import './vue3-carousel-modifs.css';
+
 #app {
   padding-bottom: var(--footer-height);
 }

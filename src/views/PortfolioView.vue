@@ -25,29 +25,29 @@
       <ProyectSilvia />
     </article>
 
-    <article class="portfolio">
+    <!-- <article class="portfolio">
       <header class="portfolio_header">
         <h1>ENCHANTED VILLAGE</h1>
         <span class="portfolio_subtitle">PORTFOLIO</span>
         <div>03</div>
       </header>
-    </article>
+    </article> -->
 
-    <article class="portfolio">
+    <!-- <article class="portfolio">
       <header class="portfolio_header">
         <h1>EL VIAJE DE SAID</h1>
         <span class="portfolio_subtitle">PORTFOLIO</span>
         <div>04</div>
       </header>
-    </article>
+    </article> -->
 
-    <article class="portfolio">
+    <!-- <article class="portfolio">
       <header class="portfolio_header">
         <h1>TRENDY SET GO!</h1>
         <span class="portfolio_subtitle">PORTFOLIO</span>
         <div>05</div>
       </header>
-    </article>
+    </article> -->
   </main>
 </template>
 

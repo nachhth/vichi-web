@@ -1,0 +1,49 @@
+.carousel__container {
+  margin: auto;
+  width: 90%;
+}
+
+.carousel__item {
+  border-radius: var(--border-radius);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel__prev,
+.carousel__next {
+  box-sizing: content-box;
+  color: var(--white);
+}
+
+.carousel__track {
+  transform-style: preserve-3d;
+}
+
+.carousel__slide--sliding {
+  transition: 0.5s;
+}
+
+.carousel__slide--active ~ .carousel__slide {
+  transform: scale(0.70);
+  transition: 0.5s;
+  z-index: 0;
+}
+
+.carousel__slide--prev {
+  transform: scale(0.70);
+}
+
+.carousel__slide--next {
+  transform: scale(0.70);
+}
+
+.carousel__slide--active {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.carousel__pagination-button::after {
+  background-color: var(--white);
+}
