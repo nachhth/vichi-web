@@ -26,6 +26,8 @@ const jungleImages = [
         <Pagination />
       </template>
     </Carousel>
+
+    <div class="jungle_subtitle">MODELING, ENVIROMENT, SET DRESSING, LIGHTING, FX</div>
   </section>
 </template>
 
@@ -37,5 +39,11 @@ const jungleImages = [
 .carousel__container {
   margin: auto;
   width: 80%;
+}
+
+.jungle_subtitle {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 </style>

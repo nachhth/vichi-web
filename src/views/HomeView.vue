@@ -11,31 +11,32 @@
 </template>
 
 <style>
+.video_container {
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.home_video_title {
+  font-family: var(--font-subheader);
+  text-transform: uppercase;
+  font-size: 1.714rem;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.home_video {
+  height: calc(100vh - var(--header-height) - var(--footer-height) - 9rem);
+  max-width: 100vw;
+}
+
+@media (min-width: 1024px) {
   .video_container {
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2rem;
+    padding-top: 5rem;
   }
-
-  .home_video_title {
-    font-family: var(--font-subheader);
-    text-transform: uppercase;
-    font-size: 1.714rem;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 2rem;
-  }
-
-  .home_video {
-    height: calc(100vh - var(--header-height) - var(--footer-height) - 9rem);
-  }
-
-  @media (min-width: 1024px) {
-    .video_container {
-      padding-top: 5rem;
-    }
-  }
+}
 </style>

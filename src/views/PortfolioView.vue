@@ -1,6 +1,6 @@
 <script setup>
-  import ProyectJungle from '@/components/portfolio/ProyectJungle.vue';
-  import ProyectSilvia from '@/components/portfolio/ProyectSilvia.vue';
+import ProyectJungle from '@/components/portfolio/ProyectJungle.vue';
+import ProyectSilvia from '@/components/portfolio/ProyectSilvia.vue';
 </script>
 
 <template>
@@ -52,29 +52,40 @@
 </template>
 
 <style scoped>
-  .portfolio {
-    min-height: calc(100vh - var(--footer-height));
-  }
+.portfolio {
+  min-height: calc(100vh - var(--footer-height));
+}
 
+.portfolio_header {
+  position: relative;
+  font-family: var(--font-header);
+  text-transform: uppercase;
+  font-size: 4rem;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  all: unset;
+}
+
+.portfolio_subtitle {
+  position: absolute;
+  font-size: 1rem;
+  font-family: var(--font-subheader);
+  top: 5.25rem;
+  left: 2.1rem;
+}
+
+@media (min-width: 1024px) {
   .portfolio_header {
-    position: relative;
-    font-family: var(--font-header);
-    text-transform: uppercase;
     font-size: 6.857rem;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  h1 {
-    all: unset;
   }
 
   .portfolio_subtitle {
-    position: absolute;
     font-size: 1.429rem;
-    font-family: var(--font-subheader);
     top: 8rem;
-    left: 2.1rem;
   }
+}
 </style>
